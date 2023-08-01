@@ -1,9 +1,17 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
+import React from 'react'
+import ReactDOM from 'react-dom/client'
 
 function FirstComponent() {
-  return <h1>My First Component</h1>;
+  return <h2>Hello World</h2>
 }
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<FirstComponent />);
+// function FirstComponent() {
+//   return React.createElement(
+//     'div',
+//     {},
+//     React.createElement('h2', {}, 'Hello World')
+//   )
+// }
+
+const root = ReactDOM.createRoot(document.getElementById('root'))
+root.render(<FirstComponent />)
