@@ -2,9 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 
 import './index.css';
-const author = 'David Goggins';
-const title = "Can't Hurt Me";
-const img = './images/cant-hurt-me.jpg';
+const author = 'David Goggins'; // Props
+const title = "Can't Hurt Me"; // Props
+const img = './images/cant-hurt-me.jpg'; // Props
 
 const BookList = () => {
   return (
@@ -15,6 +15,7 @@ const BookList = () => {
   );
 };
 
+// Props
 const Book = () => {
   return (
     <article className="book">
