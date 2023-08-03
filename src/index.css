@@ -14,22 +14,25 @@ body {
 .booklist {
   display: grid;
   gap: 2em;
-  width: 90vw;
-  min-width: 1170px;
-  margin: 5em auto;
+  width: 90%;
+  margin: 4em 2em;
+}
+
+.book {
+  width: 90%;
+  background: #fff;
+  border-radius: 1em;
+  padding: 1em;
+  text-align: center;
 }
 
 @media (min-width: 768px) {
   .booklist {
     grid-template-columns: repeat(3, 1fr);
+    place-content: center;
+    text-align: center;
+    align-items: start;
   }
-}
-
-.book {
-  background: #fff;
-  border-radius: 1em;
-  padding: 2em;
-  text-align: center;
 }
 
 .book img {
