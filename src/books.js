@@ -1,22 +1,26 @@
+import img1 from './images/book-1.jpg';
+import img2 from './images/book-2.jpg';
+import img3 from './images/book-3.png';
+
 export const books = [
   {
     author: 'Tim Grover',
     title: 'Relentless',
-    img: 'https://impacttheory.com/wp-content/uploads/2017/09/tim-grover-relentless.jpg',
+    img: img1,
     id: 1,
   },
 
   {
     author: 'Robert Greene',
     title: 'Mastery',
-    img: 'https://impacttheory.com/wp-content/uploads/2017/09/robert-greene-mastery.jpg',
+    img: img2,
     id: 2,
   },
 
   {
     author: 'David Goggins',
     title: "Can't Hurt Me",
-    img: 'https://impacttheory.com/wp-content/uploads/2019/01/DavidGoggins.png',
+    img: img3,
     id: 3,
   },
 ];

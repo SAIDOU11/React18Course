@@ -19,6 +19,7 @@ body {
 }
 
 .book {
+  position: relative;
   width: 90%;
   background: #fff;
   border-radius: 1em;
@@ -50,4 +51,22 @@ body {
   font-size: 0.75rem;
   margin-top: 0.5em;
   letter-spacing: 2px;
+}
+
+.number {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 1rem;
+  padding: 0.75em;
+  border-top-left-radius: 1em;
+  border-bottom-right-radius: 1em;
+  background: #c35600;
+  color: #fff;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 3em;
+  text-transform: capitalize;
 }
